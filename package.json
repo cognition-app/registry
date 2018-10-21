@@ -1,0 +1,32 @@
+{
+  "name": "cognition-registry",
+  "version": "1.0.0",
+  "description": "Compiled plugin registry for trusted cognition plugins",
+  "main": "registry.json",
+  "scripts": {
+    "build": "babel-node src/registry.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cognition-app/registry.git"
+  },
+  "author": "Daniel J. B. Clarke <u8sand@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cognition-app/registry/issues"
+  },
+  "homepage": "https://github.com/cognition-app/registry#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "cognition-provider-dummy": "file:../provider-dummy",
+    "cognition-view-dummy": "file:../view-dummy"
+  },
+  "cognition": {
+    "@context": "https://raw.githubusercontent.com/cognition-app/schema/master/",
+    "@type": "core/Registry.json",
+    "name": "cognition-registry",
+    "description": "The core cognition registry of plugins",
+    "version": "1.0.0",
+    "entrypoint": "registry.json"
+  }
+}

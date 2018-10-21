@@ -1,0 +1,6 @@
+{
+  "@context": "https://raw.githubusercontent.com/cognition-app/schema/master/",
+  "@type": "core/RegistryItems.json",
+  "items": [
+  ]
+}
