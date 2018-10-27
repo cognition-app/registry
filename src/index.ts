@@ -3,7 +3,7 @@ import * as PouchDBQuickSearch from 'pouchdb-quick-search'
 import PluginSchema from '@cognition-app/schema/dist/core/plugin'
 import RegistrySchema from '@cognition-app/schema/dist/core/plugin/registry'
 import CognitionRegistrySchema from './schema/registry'
-import { assertType } from 'typescript-is'
+import { assertType } from '@cognition-app/schema/dist/assert'
 
 const registry = (() => {
   // Setup full text search

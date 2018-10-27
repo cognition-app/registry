@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/cognition-app/schema/master/dist/core/plugin",
   "name": "@cognition-app/registry",
   "version": "1.0.0",
   "description": "Compiled plugin registry for trusted cognition plugins",
@@ -27,7 +28,7 @@
     "typescript-is": "^0.7.9"
   },
   "cognition": {
-    "@type": "https://raw.githubusercontent.com/cognition-app/registry/master/dist/schema/registry",
+    "$schema": "https://raw.githubusercontent.com/cognition-app/schema/master/dist/core/plugin/registry",
     "items": [
       "@cognition-app/provider-couchdb",
       "@cognition-app/view-dummy"

@@ -4,16 +4,13 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "declaration": true,
-    "resolveJsonModule": true,
-    "module": "commonjs",
+    "moduleResolution": "node",
+    "module": "umd",
     "target": "es5",
     "lib": [
       "es2015",
       "dom"
-    ],
-    "plugins": [{
-      "transform": "typescript-is/lib/transform-inline/transformer"
-    }]
+    ]
   },
   "include": [
     "./src/**/*"
