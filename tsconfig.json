@@ -4,8 +4,9 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "declaration": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
-    "module": "umd",
+    "module": "commonjs",
     "target": "es5",
     "lib": [
       "es2015",

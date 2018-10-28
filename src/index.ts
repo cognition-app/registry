@@ -15,7 +15,7 @@ const registry = (() => {
   // Load registry
   const registry = assertType<CognitionRegistrySchema>(
     assertType<PluginSchema>(
-      require('./package.json')
+      require('../package.json')
     ).cognition
   )
 
